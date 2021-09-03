@@ -1,1 +1,1 @@
-from fire.fire import FireModel
+from fire.fire import FireModel, FireEntity
