@@ -1,0 +1,1 @@
+from fire.fire import FireModel

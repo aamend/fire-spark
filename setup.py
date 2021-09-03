@@ -9,8 +9,8 @@ setuptools.setup(
     description='Mapping fire model into spark operations',
     long_description_content_type='text/markdown',
     url='https://github.com/aamend/fire-spark',
-    packages=find_packages(where=".", include=["fire"]),
-    extras_require=dict(tests=["pytest"]),
+    packages=['fire'],
+    include_package_data=True,
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: Apache Software License',
